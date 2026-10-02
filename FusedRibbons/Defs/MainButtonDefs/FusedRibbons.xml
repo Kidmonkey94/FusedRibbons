@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Parent tabs. Same window class, different group def.
+       No iconPath: Core does not ship those button textures. -->
+  <MainButtonDef>
+    <defName>FusedPawns</defName>
+    <label>pawns</label>
+    <description>Work, schedule, and assign. Pick one from the row above the real tab.</description>
+    <workerClass>FusedRibbons.MainButtonWorker_RibbonGroup</workerClass>
+    <tabWindowClass>FusedRibbons.MainTabWindow_RibbonHost</tabWindowClass>
+    <order>10</order>
+    <defaultHotKey>F1</defaultHotKey>
+    <closesWorldView>true</closesWorldView>
+  </MainButtonDef>
+
+  <MainButtonDef>
+    <defName>FusedAnimals</defName>
+    <label>animals</label>
+    <description>Tame animals and wildlife. Pick one from the row above the real tab.</description>
+    <workerClass>FusedRibbons.MainButtonWorker_RibbonGroup</workerClass>
+    <tabWindowClass>FusedRibbons.MainTabWindow_RibbonHost</tabWindowClass>
+    <order>40</order>
+    <defaultHotKey>F4</defaultHotKey>
+    <closesWorldView>true</closesWorldView>
+  </MainButtonDef>
+
+  <FusedRibbons.RibbonGroupDef>
+    <defName>PawnsGroup</defName>
+    <label>pawns</label>
+    <buttonDef>FusedPawns</buttonDef>
+    <members>
+      <li>Work</li>
+      <li>Schedule</li>
+      <li>Assign</li>
+      <li>Mechs</li>
+    </members>
+  </FusedRibbons.RibbonGroupDef>
+
+  <FusedRibbons.RibbonGroupDef>
+    <defName>AnimalsGroup</defName>
+    <label>animals</label>
+    <buttonDef>FusedAnimals</buttonDef>
+    <members>
+      <li>Animals</li>
+      <li>Wildlife</li>
+    </members>
+  </FusedRibbons.RibbonGroupDef>
+
+</Defs>
