@@ -4,7 +4,9 @@ RimWorld mod. Fuses Work, Schedule, Assign, and Mechs into a Pawns ribbon, and A
 
 The real tabs are opened, not copied. Hotkeys on those buttons are left alone.
 
-Requires [Harmony](https://steamcommunity.com/workshop/filedetails/?id=2009463077). Incompatible with Reorderer: both mods write the same bar order.
+Incompatible with Reorderer: both mods write the same bar order.
+
+Requires [Harmony](https://steamcommunity.com/workshop/filedetails/?id=2009463077). 
 
 ## Known limits
 
